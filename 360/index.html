@@ -40,7 +40,11 @@
             font-size: 12px;
             font-family: arial;
             display: inline-block;
-            left: 5px;
+            left: 6px;
+        }
+
+        .searchbar-text-onfocus{
+            border-color: #0fb264;
         }
 
         .searchbar-text-input{
@@ -113,12 +117,20 @@
         </div>
         <div class="searchbar">
             <form action="/s">
-                <div class="searchbar-text">
-                    <input class="searchbar-text-input" type="text" name="q" id="input" suggestwidth="540px" autocomplete="off">
+                <div class="searchbar-text" id="input-border">
+                    <input class="searchbar-text-input" type="text" name="q" suggestwidth="540px" autocomplete="off" onfocusin="inputFocusIn()" onfocusout="inputFocusOut()">
                 </div>
                 <input class="searchbar-submit" type="submit" value="搜索">
             </form>
         </div>
     </div>
+    <script type="text/javascript">
+        function inputFocusIn(){
+            document.getElementById("input-border").className = "searchbar-text searchbar-text-onfocus";
+        }
+        function inputFocusOut(){
+            document.getElementById("input-border").className = "searchbar-text";
+        }
+    </script>
 </body>
 </html>
