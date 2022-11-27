@@ -55,7 +55,11 @@
         }
 
         .searchbar-text-onfocus{
-            border: 2px solid #4e6ef2;
+            border-color: #4e6ef2;
+        }
+
+        .searchbar-text-mouseover{
+            border-color: #a7aab5;
         }
 
         .searchbar-submit{
@@ -96,17 +100,30 @@
         <div class="logo-div">
             <img src="//www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png" width="270" height="129">
         </div>
-        <form class="searchbar-form" name="baidu-search" action="/s">
-            <input class="searchbar-text" type="text" name="wd" id="input" maxlength="100" autocomplete="off" onfocusin="inputFocusIn()" onfocusout="inputFocusOut()">
+        <form class="searchbar-form" action="/s">
+            <input class="searchbar-text" type="text" name="wd" id="input" maxlength="100" autocomplete="off" onfocus="inputFocusIn()" onfocusout="inputFocusOut()" onmouseenter="inputMouseIn()" onmouseleave="inputMouseOut()">
             <input class="searchbar-submit" type="submit" value="百度一下">
         </form>
     </div>
     <script type="text/javascript">
+        var noFocus = true;
         function inputFocusIn(){
+            noFocus = false;
             document.getElementById("input").className = "searchbar-text searchbar-text-onfocus";
         }
         function inputFocusOut(){
+            noFocus = true;
             document.getElementById("input").className = "searchbar-text";
+        }
+        function inputMouseIn(){
+            if (noFocus) {
+                document.getElementById("input").className = "searchbar-text searchbar-text-mouseover";
+            }
+        }
+        function inputMouseOut(){
+            if (noFocus) {
+                document.getElementById("input").className = "searchbar-text";
+            }
         }
     </script>
 </body>

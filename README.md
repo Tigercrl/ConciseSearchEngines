@@ -6,4 +6,6 @@ Deleted most of the useless functions on the main page of the search engine and 
 
 ### 网站跳转 Links
 
-[360](360/)	[百度Baidu](baidu/)
+[360](360/)
+[百度Baidu](baidu/)
+[搜狗Sogou](sogou/)
