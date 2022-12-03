@@ -1,12 +1,13 @@
-# Concise Search Engines!	简洁搜索引擎！
-
-Deleted most of the useless functions on the main page of the search engine and **only keep the search button**!
+# 简洁搜索引擎！
 
 砍掉了搜索引擎主页上大部分无用的功能，**只保留搜索功能**!
 
-### 网站跳转 Links
+Q：English?
+A：I don't have any time to make an English version for this website. If anyone wants to make an English version, I’ll be glad to.
+
+### 网站跳转
 
 [360](360/)
-[百度 Baidu](baidu/)
+[百度](baidu/)
 [GitHub](github/)
-[搜狗 Sogou](sogou/)
+[搜狗](sogou/)

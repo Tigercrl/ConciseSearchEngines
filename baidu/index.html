@@ -1,106 +1,17 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <base href="https://www.baidu.com" />
     <title>百度一下，你就知道</title>
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-    <style type="text/css">
-        .main-div{
-            margin: 10% auto;
-            width: 655px;
-            text-align: left;
-            cursor: default;
-            font-size: 12px;
-            font-family: Arial,sans-serif;
-        }
-
-        .logo-div{
-            margin: 0 auto;
-            width: 270px;
-        }
-
-        .searchbar-form{
-            margin: 15px auto;
-            width: 559px;
-        }
-
-        .searchbar-text{
-            width: 411px;
-            padding-right: 119px;
-            height: 16px;
-            padding: 12px 16px;
-            font-size: 16px;
-            margin: 0;
-            vertical-align: top;
-            outline: 0;
-            box-shadow: none;
-            border-radius: 10px 0 0 10px;
-            border: 2px solid #c4c7ce;
-            background: #fff;
-            color: #222;
-            overflow: hidden;
-            box-sizing: content-box;
-            font-family: Arial,sans-serif;
-            writing-mode: horizontal-tb !important;
-            text-rendering: auto;
-            letter-spacing: normal;
-            word-spacing: normal;
-            line-height: normal;
-            text-transform: none;
-            text-indent: 0px;
-            text-shadow: none;
-            display: inline-block;
-            text-align: start;
-            cursor: text;
-        }
-
-        .searchbar-text-onfocus{
-            border-color: #4e6ef2;
-        }
-
-        .searchbar-text-mouseover{
-            border-color: #a7aab5;
-        }
-
-        .searchbar-submit{
-            cursor: pointer;
-            width: 108px;
-            height: 44px;
-            line-height: 45px;
-            padding: 0;
-            background: 0 0;
-            background-color: #4e6ef2;
-            border-radius: 0 10px 10px 0;
-            font-size: 17px;
-            color: #fff;
-            box-shadow: none;
-            font-weight: 400;
-            border: none;
-            outline: 0;
-            font-family: Arial,sans-serif;
-            margin: 0;
-            user-select: none;
-            white-space: pre;
-            align-items: flex-start;
-            text-align: center;
-            box-sizing: border-box;
-            writing-mode: horizontal-tb !important;
-            text-rendering: auto;
-            letter-spacing: normal;
-            word-spacing: normal;
-            text-transform: none;
-            text-indent: 0px;
-            text-shadow: none;
-            display: inline-block;
-        }
-    </style>
+    <link rel="shortcut icon" href="https://www.baidu.com/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="../global.css">
 </head>
 <body>
     <div class="main-div">
         <div class="logo-div">
-            <img src="//www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png" width="270" height="129">
+            <img src="https://www.baidu.com/img/flexible/logo/pc/index.png" width="270" height="129">
         </div>
-        <form class="searchbar-form" action="/s">
+        <form class="searchbar-form" action="https://www.baidu.com/s">
             <input class="searchbar-text" type="text" name="wd" id="input" maxlength="100" autocomplete="off" onfocus="inputFocusIn()" onfocusout="inputFocusOut()" onmouseenter="inputMouseIn()" onmouseleave="inputMouseOut()">
             <input class="searchbar-submit" type="submit" value="百度一下">
         </form>

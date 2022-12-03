@@ -1,146 +1,17 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <base href="https://sogou.com" />
     <title>搜狗搜索引擎 - 上网从搜狗开始</title>
-    <link rel="shortcut icon" href="/images/logo/new/favicon.ico?v=4" type="image/x-icon">
-    <style type="text/css">
-        .main-div{
-            margin: 12% auto;
-        }
-
-        .logo-div{
-            left: 50%;
-            margin-left: -220px;
-            bottom: 0;
-            transition: opacity .2s ease;
-            opacity: 1;
-            width: 440px;
-            background: #fff;
-            position: relative;
-            zoom: 1;
-            min-width: 1000px;
-            height: 100%;
-            word-break: break-all;
-            word-wrap: break-word;
-            font-family: arial,'pingfang sc',stheiti,'microsoft yahei',sans-serif;
-            font-size: 13px;
-        }
-
-        .searchbar-form{
-            margin: 0 auto;
-            display: block;
-            zoom: 1;
-            word-break: break-all;
-            word-wrap: break-word;
-            font-family: arial,'pingfang sc',stheiti,'microsoft yahei',sans-serif;
-            font-size: 13px;
-            width: 655px;
-            position: relative;
-            border-radius: 3px;
-            height: 44px;
-            border: solid 1px #ababab;
-            padding: 0 154px 0 10px;
-            background: #fff;
-        }
-
-        .searchbar-text-div{
-            display: block;
-            padding: 12px 0;
-            height: 18px;
-            word-break: break-all;
-            word-wrap: break-word;
-            font-family: arial,'pingfang sc',stheiti,'microsoft yahei',sans-serif;
-            font-size: 13px;
-        }
-
-        .searchbar-text{
-            width: 100%;
-            height: 18px;
-            font-size: 16px;
-            color: #333;
-            border: 0;
-            outline: 0;
-            padding: 0;
-            margin: 0;
-            display: block;
-            font-family: arial,'pingfang sc',stheiti,'microsoft yahei',sans-serif;
-            writing-mode: horizontal-tb !important;
-            text-rendering: auto;
-            letter-spacing: normal;
-            word-spacing: normal;
-            line-height: normal;
-            text-transform: none;
-            text-indent: 0px;
-            text-shadow: none;
-            text-align: start;
-            cursor: text;
-            background-color: field;
-            word-break: break-all;
-            word-wrap: break-word;
-        }
-
-        .searchbar-form-onfocus{
-            border-color: #666;
-        }
-
-        .searchbar-form-mouseover{
-            border-color: #7a7a7a;
-        }
-
-        .submit-div{
-            position: absolute;
-            right: 0;
-            top: 0;
-            z-index: 3;
-            border-radius: 0 3px 3px 0;
-            background-color: #fafafa;
-            border-left: 1px solid #e6e6e6;
-            word-break: break-all;
-            word-wrap: break-word;
-            font-family: arial,'pingfang sc',stheiti,'microsoft yahei',sans-serif;
-            font-size: 13px
-        }
-
-        .searchbar-submit{
-            width: 99px;
-            height: 42px;
-            border: 0;
-            background: transparent;
-            display: block;
-            -webkit-appearance: none;
-            border-radius: 0;
-            margin: 0;
-            padding: 0;
-            cursor: pointer;
-            outline: 0;
-            font-size: 16px;
-            font-family: arial,'pingfang sc',stheiti,'microsoft yahei',sans-serif;
-            user-select: none;
-            white-space: pre;
-            align-items: flex-start;
-            text-align: center;
-            box-sizing: border-box;
-            color: buttontext;
-            writing-mode: horizontal-tb !important;
-            text-rendering: auto;
-            letter-spacing: normal;
-            word-spacing: normal;
-            line-height: normal;
-            text-transform: none;
-            text-indent: 0px;
-            text-shadow: none;
-            word-break: break-all;
-            word-wrap: break-word;
-        }
-    </style>
+    <link rel="shortcut icon" href="https://sogou.com/images/logo/new/favicon.ico?v=4" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="../global.css">
 </head>
 <body>
     <div class="main-div">
         <div class="logo-div">
-            <img src="//dlweb.sogoucdn.com/pcsearch/web/index/images/logo_880x280_06c7476.png" width="440px" height="140px">
+            <img src="https://dlweb.sogoucdn.com/pcsearch/web/index/images/logo_880x280_06c7476.png" width="440px" height="140px">
         </div>
-        <form action="/web" class="searchbar-form" id="input-form" onmouseenter="inputMouseIn()" onmouseleave="inputMouseOut()">
+        <form action="https://sogou.com/web" class="searchbar-form" id="input-form" onmouseenter="inputMouseIn()" onmouseleave="inputMouseOut()">
             <div class="searchbar-text-div">
                 <input type="text" class="searchbar-text" name="query" maxlength="100" len="80" autocomplete="off" onfocusin="inputFocusIn()" onfocusout="inputFocusOut()">
             </div>

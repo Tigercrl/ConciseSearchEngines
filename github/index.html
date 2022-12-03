@@ -1,114 +1,10 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <base href="https://github.com" />
     <title>GitHub</title>
     <link rel="icon" class="js-site-favicon" type="image/svg+xml" href="https://github.githubassets.com/favicons/favicon.svg">
-    <style type="text/css">
-        .main-div{
-            margin: 15% auto;
-            width: 655px;
-        }
-
-        .logo-div{
-            margin: 0 auto;
-            transition: margin .4s;
-            position: relative;
-            display: block;
-            font-size: 12px;
-            font-family: arial;
-            width: 265px;
-        }
-
-        .searchbar{
-            margin: 30px auto;
-            color: #000;
-            width: 569px;
-        }
-
-        .searchbar-text{
-            border: 2px solid #57606a;
-            border-right: 0;
-            border-radius: 8px 0 0 8px;
-            height: 30px;
-            padding: 5px 10px;
-            position: relative;
-            vertical-align: top;
-            width: 450px;
-            display: block;
-            font-size: 12px;
-            font-family: arial;
-            display: inline-block;
-            left: 6px;
-            background-color: #24292f;
-        }
-
-        .searchbar-text-onfocus{
-            background-color: #fff;
-        }
-
-        .searchbar-text-input{
-            font-size: 16px;
-            outline: none;
-            background: rgba(0,0,0,.001);
-            border: none;
-            color: #333;
-            float: left;
-            height: 25px;
-            left: 15px;
-            line-height: 25px;
-            margin-top: 3px;
-            top: 5px;
-            width: 406px;
-            margin: 2px 0 0 0;
-            padding: 0;
-            writing-mode: horizontal-tb !important;
-            text-rendering: auto;
-            letter-spacing: normal;
-            word-spacing: normal;
-            text-transform: none;
-            text-indent: 0px;
-            text-shadow: none;
-            display: inline-block;
-            text-align: start;
-            appearance: auto;
-            cursor: text;
-        }
-
-        .searchbar-submit{
-            background: #57606a;
-            border: 0;
-            border-radius: 0 8px 8px 0;
-            cursor: pointer;
-            font-family: "Microsoft YaHei";
-            height: 44px;
-            left: 572px;
-            letter-spacing: 1px;
-            overflow: hidden;
-            top: 0;
-            vertical-align: top;
-            width: 91px;
-            font-size: 16px;
-            outline: none;
-            color: #fff;
-            margin: 0;
-            padding: 0;
-            user-select: none;
-            white-space: pre;
-            align-items: flex-start;
-            text-align: center;
-            box-sizing: border-box;
-            writing-mode: horizontal-tb !important;
-            text-rendering: auto;
-            word-spacing: normal;
-            line-height: normal;
-            text-transform: none;
-            text-indent: 0px;
-            text-shadow: none;
-            display: inline-block;
-        }
-
-    </style>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="../global.css">
 </head>
 <body style="background-color: #24292f;">
     <div class="main-div">
@@ -120,9 +16,9 @@
         <div class="searchbar">
             <form action="/search">
                 <div class="searchbar-text" id="input-border">
-                    <input class="searchbar-text-input" type="text" name="q" suggestwidth="540px" autocomplete="off" placeholder="Search GitHub" onfocusin="inputFocusIn()" onfocusout="inputFocusOut()">
+                    <input class="searchbar-text-input" type="text" name="q" suggestwidth="540px" autocomplete="off" placeholder="搜索GitHub" onfocusin="inputFocusIn()" onfocusout="inputFocusOut()">
                 </div>
-                <input class="searchbar-submit" type="submit" value="Search">
+                <input class="searchbar-submit" type="submit" value="搜索">
             </form>
         </div>
     </div>

@@ -1,0 +1,78 @@
+.main-div{
+	margin: 12% auto;
+}
+
+.logo-div{
+	left: 50%;
+	margin-left: -220px;
+	bottom: 0;
+	transition: opacity .2s ease;
+	opacity: 1;
+	width: 440px;
+	position: relative;
+	zoom: 1;
+	min-width: 1000px;
+	height: 100%;
+}
+
+.searchbar-form{
+	margin: 0 auto;
+	display: block;
+	font-family: arial,'pingfang sc',stheiti,'microsoft yahei',sans-serif;
+	font-size: 13px;
+	width: 655px;
+	position: relative;
+	border-radius: 3px;
+	height: 44px;
+	border: solid 1px #ababab;
+	padding: 0 154px 0 10px;
+	background: #fff;
+}
+
+.searchbar-text-div{
+	display: block;
+	padding: 12px 0;
+	height: 18px;
+}
+
+.searchbar-text{
+	width: 100%;
+	height: 18px;
+	font-size: 16px;
+	color: #333;
+	border: 0;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+
+.searchbar-form-onfocus{
+	border-color: #666;
+}
+
+.searchbar-form-mouseover{
+	border-color: #7a7a7a;
+}
+
+.submit-div{
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 3;
+	border-radius: 0 3px 3px 0;
+	background-color: #fafafa;
+	border-left: 1px solid #e6e6e6;
+}
+
+.searchbar-submit{
+	width: 99px;
+	height: 42px;
+	border: 0;
+	background: transparent;
+	display: block;
+	border-radius: 0;
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}

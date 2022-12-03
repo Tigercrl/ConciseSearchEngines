@@ -1,0 +1,56 @@
+.main-div{
+	margin: 10% auto;
+	width: 655px;
+	text-align: left;
+	font-size: 12px;
+	font-family: Arial,sans-serif;
+}
+
+.logo-div{
+	margin: 0 auto;
+	width: 270px;
+}
+
+.searchbar-form{
+	margin: 15px auto;
+	width: 559px;
+}
+
+.searchbar-text{
+	width: 411px;
+	padding-right: 119px;
+	height: 16px;
+	padding: 12px 16px;
+	font-size: 16px;
+	margin: 0;
+	vertical-align: top;
+	outline: 0;
+	box-shadow: none;
+	border-radius: 10px 0 0 10px;
+	border: 2px solid #c4c7ce;
+}
+
+.searchbar-text-onfocus{
+	border-color: #4e6ef2;
+}
+
+.searchbar-text-mouseover{
+	border-color: #a7aab5;
+}
+
+.searchbar-submit{
+	width: 108px;
+	height: 44px;
+	line-height: 45px;
+	padding: 0;
+	background-color: #4e6ef2;
+	border-radius: 0 10px 10px 0;
+	font-size: 17px;
+	color: #fff;
+	font-weight: 400;
+	border: none;
+	outline: 0;
+	font-family: Arial,sans-serif;
+	margin: 0;
+	display: inline-block;
+}
